@@ -1,7 +1,6 @@
 <?php
 use yii\helpers\Url;
 use yii\widgets\LinkPager;
-
 ?>
 <!--main content start-->
 <div class="main-content">
@@ -9,7 +8,6 @@ use yii\widgets\LinkPager;
         <div class="row">
             <div class="col-md-8">
                 <?php
-
                 foreach($articles as $article):?>
                     <article class="post post-list">
                     <div class="row">
