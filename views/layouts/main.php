@@ -1,8 +1,6 @@
 <?php
-
 /* @var $this \yii\web\View */
 /* @var $content string */
-
 use app\assets\PublicAsset;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
@@ -10,7 +8,6 @@ use yii\bootstrap\NavBar;
 use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
-
 PublicAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
